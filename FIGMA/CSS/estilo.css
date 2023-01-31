@@ -1,0 +1,231 @@
+
+
+header{
+    background-color: #232323;
+    max-width: 97vw;
+    width: 97vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+header svg{
+    margin-top: 15px;
+    justify-content: center;
+}
+body{
+    max-width: 97vw;
+    width: 97vw;
+}
+.titulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+  .slide-1-1 img {
+    width: 100%;
+    height: auto,
+  } 
+
+  .departamentos{
+    width: 90%;
+    padding: 7% 5%;
+  }
+
+  .dep-1{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .dep-1-1{
+    width: 50%;
+    position: relative;
+  }
+  .dep-1-1 img{
+    width: 100%;
+    height: auto;
+  }
+.paragrafoDep{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 33%;
+    left: 17%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.slideProduto{
+    display: flex;
+}
+.copo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.copo-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 9%;
+    left: 12%;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 21px;
+    
+}
+.copo-coluna{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.copo-coluna2{
+    position: absolute;
+    right: 25%;
+}
+.valor-original{
+    text-decoration: line-through;
+}
+.valor-desconto{
+    color: #EEFF49 ;
+}
+.lancamento{
+    display: flex;
+    justify-content: center;
+}
+.lancamento{
+    background-color: #EEFF49;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: 6%;
+    left: 12%;
+    padding: 5px;
+}
+.carrinho2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    bottom: 7%;
+    left: 75%;
+    width: auto;
+
+}
+.saiba-mais{
+    display: flex;
+}
+.saiba-mais1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.saiba-mais2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.paragrafo-2{
+    position: absolute;
+    color: white;
+    top: 45%;
+    right: 5%;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.pagamento{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.pagamento2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: 5px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F8F8F8;
+    gap: 25px;
+
+}
+footer{
+    background-color: #232323;
+    max-width:  97vw;
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+}
+.wecode{
+    margin: 56px 180px 0px 16px;
+    width: 179px;
+    height: 40px;
+    
+}
+.newsletter{
+    color: #F8F8F8;
+    margin-left: 16px;
+    margin-bottom: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tit2{
+    font-size: 20px;
+    color: #F8F8F8;
+    text-decoration: underline;
+}
+.caixa-texto{
+    display: flex;
+    gap: 10px
+}
+.mail{
+    background-color: #EEFF49;
+    padding: 15px 30px;
+}
+
+.redes-sociais{
+    gap: 25px;
+}
+.certificados{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+.paragrafo-dados{
+    color: #F8F8F8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+.vtex{
+    background-color:#142032;
+    display: flex;
+    justify-content: center;
+}
+.sobre-Nos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    color: #F8F8F8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.lista-nos{
+    list-style: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
